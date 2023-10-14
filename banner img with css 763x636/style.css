@@ -1,0 +1,92 @@
+body{
+    font: normal normal normal 100%/normal sans-serif !important;
+    text-decoration: none !important;
+    white-space: normal !important;
+}
+li,a
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.original-css-backdropFilter {
+    width: 763px;
+    margin: 0 auto  ;
+    z-index: 1;
+    position: relative;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px) brightness(0.89);
+  }
+.original-css-backdropFilter img{
+    max-width: 763px;
+    border-radius: 15px;
+    filter: blur(1px);
+    max-height: 636px;
+}
+.nam{
+    width: 763px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 70pt 50px;
+    right: 0;
+    display: flex;
+    justify-content: left;
+}
+.nam ul { 
+    padding: 15px 15px;
+    text-align: center;
+    max-width: 350px;
+    border:  1px solid #fff           ;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+.nam ul li h1{
+    font-size: 35pt;
+    text-decoration: underline dashed;
+}
+.nam ul li h2{
+    font-size: 35pt;
+    text-decoration: underline ;
+    color: #fff;
+}
+
+.icons{
+    width: 763px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+}
+.social{
+    background-color: rgba(32, 32, 32, 0.411);
+    text-align: center;
+    align-items: center;
+    border-radius: 15pt;
+    padding: 15pt 15pt;
+}
+.social  li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social li a{
+    padding: 15px 15px;
+    font-size: 25pt;
+    text-decoration: underline 2pt;
+}
+
+.t{
+    color: rgb(191, 148, 255) !important;
+}
+.y{
+    color: #fff !important;
+}
+.tik{
+    color: #fff !important;
+    margin:0px 16px;
+}
